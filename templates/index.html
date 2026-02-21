@@ -1,0 +1,17 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Drop IMage And See the Magic</title>
+  </head>
+  <body>
+    <h2>Put their your image</h2>
+    <form action="/resize" method="post" enctype="multipart/form-data">
+      <input type="file" name="image" required /><br /><br />
+      Width: <input type="number" name="width" required /><br /><br />
+      Height: <input type="number" name="height" required /><br /><br />
+
+      <button type="submit">Resize</button>
+    </form>
+  </body>
+</html>
